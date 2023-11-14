@@ -1,0 +1,32 @@
+{
+  "name": "vue3-switch-lang",
+  "version": "0.0.1",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/vue3-switch-lang.umd.cjs",
+  "module": "./dist/vue3-switch-lang.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vue3-switch-lang.js",
+      "require": "./dist/vue3-switch-lang.umd.cjs"
+    },
+    "./dist/style.css": "./dist/style.css"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "vue": "^3.3.4",
+    "vue-country-flag-next": "^2.3.2",
+    "vue-multiselect": "^3.0.0-beta.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "vite": "^4.4.5"
+  }
+}
